@@ -1,0 +1,113 @@
+.social-btns,
+.social-btns li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.social-btns {
+    min-height: 90px;
+    text-align: center;
+    position: relative;
+}
+
+
+.social-btns a,
+.social-btns a:before,
+.social-btns a .fa {
+    transition: all 0.35s;
+    transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59);
+}
+
+.social-btns a:before {
+    top: 90%;
+    left: -110%;
+}
+
+.social-btns a .fa {
+    transform: scale(0.8);
+}
+
+.social-btns a.facebook:before {
+    background-color: #3b5998;
+}
+
+.social-btns a.facebook .fa {
+    color: #3b5998;
+}
+
+.social-btns a.twitter:before {
+    background-color: #3cf;
+}
+
+.social-btns a.twitter .fa {
+    color: #3cf;
+}
+
+.social-btns a.google:before {
+    background-color: #dc4a38;
+}
+
+.social-btns a.google .fa {
+    color: #dc4a38;
+}
+
+.social-btns a.dribbble:before {
+    background-color: #f26798;
+}
+
+.social-btns a.dribbble .fa {
+    color: #f26798;
+}
+
+.social-btns a.skype:before {
+    background-color: #00aff0;
+}
+
+.social-btns a.skype .fa {
+    color: #00aff0;
+}
+
+.social-btns a:focus:before,
+.social-btns a:hover:before {
+    top: -10%;
+    left: -10%;
+}
+
+.social-btns a:focus .fa,
+.social-btns a:hover .fa {
+    color: #fff;
+    transform: scale(1);
+}
+
+.social-btns a {
+    display: inline-block;
+    background-color: #fff;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 10px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 28%;
+    box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+    opacity: 0.99;
+}
+
+.social-btns a:before {
+    content: '';
+    width: 120%;
+    height: 120%;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.social-btns a .fa {
+    font-size: 38px;
+    vertical-align: middle;
+}
+
+.foto img {
+    width: 400px;
+    border-radius: 900px;}
